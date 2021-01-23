@@ -18,7 +18,7 @@ services:
       [
         "./start.sh",
       ]
-  integration-tests:
+  tests:
     image: python:3.9-rc-buster
     env_file: .env
     working_dir: /app
